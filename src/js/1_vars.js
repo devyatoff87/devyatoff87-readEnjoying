@@ -1,0 +1,12 @@
+const str = document.querySelector('#textarea'),
+    work = document.querySelector('.btn.work'),
+    clear = document.querySelector('.btn.clear'),
+    result = document.querySelector('.result'),
+    message = document.querySelector('h2.message'),
+    larger = document.querySelector('.btn.larger'),
+    darkmode = document.querySelector('.btn.darkmode'),
+    readOptions = document.querySelector('.read-options'),
+    placeholder = 'Paste your text in!',
+    placeholderErr = 'It won\'t work without any text...',
+    splitText = document.querySelector('.split-text'),
+    makeHeaders = document.querySelector('.make-headers');

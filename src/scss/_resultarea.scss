@@ -1,0 +1,78 @@
+#result-area {
+    .result {
+        padding: 2em;
+        border: 1px transparent;
+        &.active {
+            border: 1px solid #e5e5e5;
+        }
+        &.darkmode {
+            background: #524e4b;
+            color: white;
+        }
+    }
+    h3 {
+        margin-bottom: 0.6em;
+    }
+    p {
+        line-height: 1.8em;
+        &.last-parag {
+            margin-bottom: 2.2em;
+        }
+    }
+
+   
+    h2.message {
+        font-size: 2.3em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        text-decoration: underline;
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+
+    .read-options {
+        display: none;
+        &.active {
+            display: block;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+        .btn {
+            width: 100%;
+            margin-bottom :10px;
+        }
+        .btn:last-of-type {
+            margin-bottom :0 ;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #result-area {
+        h2.message {
+            font-size: 1.9rem;
+        }
+        .result {
+            padding: 1em; 
+        }
+        .read-options {
+            display: none;
+            &.active {
+                display: block;
+            }
+            h4 {
+                font-size: 1.2rem;
+            }
+            .btn {
+                width: 49%;
+                margin-bottom :0;
+            }
+            .btn:last-of-type {
+                margin-bottom :0 ;
+            }
+        }
+    }
+}
